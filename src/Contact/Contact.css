@@ -1,0 +1,28 @@
+.contact-section {
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    min-height: 100vh;
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  
+  .glass-card {
+    background: rgba(59, 94, 168, 0.5); /* Matte Charcoal */
+    backdrop-filter: blur(14px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 16px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    color: white;
+  }
+  
+  
+  .social-link {
+    color: #38bdf8;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  .social-link:hover {
+    color: #67e8f9;
+    transform: scale(1.2);
+    text-shadow: 0 0 10px rgba(103, 232, 249, 0.5);
+  }
+  
