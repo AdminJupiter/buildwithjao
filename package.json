@@ -3,12 +3,12 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://adminjupiter.github.io/buildwithjao/",
+  "homepage": "https://AdminJupiter.github.io/my-app",
   "scripts": {
     "dev": "vite", 
     "build": "vite build", 
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
